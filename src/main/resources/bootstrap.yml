@@ -1,0 +1,10 @@
+### The name of our service- all service must have a name to be discovered, it MUST be unique
+spring:
+  application:
+    name: -nem-adapter
+  profiles:
+    active: dev
+  cloud:
+    config:
+      ### Location of our config-service; switch to eureka discovery client
+      uri: http://dev:8888

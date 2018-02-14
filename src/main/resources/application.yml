@@ -1,0 +1,9 @@
+server:
+    host: 0.0.0.0
+    port: 9122
+
+spring:
+  http:
+    multipart:
+      max-file-size: 500Mb
+      max-request-size: 500Mb
